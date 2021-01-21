@@ -17,7 +17,7 @@ namespace GenericsIntro
             items = new T[items.Length + 1];//eleman sayısını 1 arttırdık
             for (int i = 0; i < tempArray.Length; i++)
             {
-                items[i] = tempArray[i];//emanet ettik
+                items[i] = tempArray[i];//emanetimizi geri aldık
             }
             items[items.Length - 1] = item;//istediğimiz eleman şu an eklendi
         }
